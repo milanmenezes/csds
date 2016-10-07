@@ -63,7 +63,7 @@ node delete_f(node front)
 
 node delete_r(node front)
 {
- node prev,cur;;
+ node prev,cur;
  if(front==NULL)
  {
   printf("Empty list\n");
@@ -121,7 +121,7 @@ node delete_s(node front,int key)
  return NULL;
 }
  }
- while(cur->link!=NULL)
+ while(cur!=NULL)
  {
   if(cur->info==key)
  {
@@ -184,5 +184,4 @@ for(;;)
 }
 }
 return 0;
-
 }

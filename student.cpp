@@ -1,11 +1,11 @@
 #include<iostream>
 #include<cstring>
 using namespace std;
-static int count=0;
 class student{
  string name;
  string usn;
 public:
+	static int count;
  student(){
  count++;
  name="\0";
@@ -24,18 +24,26 @@ student (const student &o)
  usn=o.usn;
 }
 
-static int display()
+static int countf()
 {
  return count;
 }
+
+void display()
+{
+	cout<<name<<endl<<usn<<endl;
+}
 };
+
+int student::count;
 int main()
 {
  student s1;
- cout<<s1.display()<<endl;
+ cout<<s1.countf()<<endl;
  student s2("Milan","4ni5");
- cout<<s1.display()<<endl;
+ cout<<s1.countf()<<endl;
  student s3=s2;
- cout<<s1.display()<<endl;
+ cout<<s1.countf()<<endl;
+ s3.display();
  return 0;
 }
