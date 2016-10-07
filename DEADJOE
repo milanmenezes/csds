@@ -1,0 +1,25 @@
+
+*** These modified files were found in JOE when it aborted on Fri Oct  7 08:25:49 2016
+*** JOE was aborted by UNIX signal 1
+
+*** File '/home/milanmenezes/temp/.git/MERGE_MSG'
+hello
+
+
+
+
+
+
+
+
+Merge branch 'master' of https://github.com/milanmenezes/csds
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+*** File '(Unnamed)'
+/home/milanmenezes/milan/.git/MERGE_MSG
+/home/milanmenezes/temp/.git/MERGE_MSG

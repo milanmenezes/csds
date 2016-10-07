@@ -40,7 +40,7 @@ class stack
  void display()
  {
  int i;
- for(i=0;i<=top;i++)
+ for(i=top;i>=0;i--)
   cout<<" "<<a[i];
 
  cout<<endl;
